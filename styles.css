@@ -1,0 +1,28 @@
+body{
+  background-color: #FEE8F8;
+}
+h1{
+  color: #1A3865;
+}
+h1{
+ display: flex;
+ justify-content: center;
+}
+
+img{
+    width:425px;
+    height:425px;
+    object-fit: cover;
+}
+
+div{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   justify-content:space-evenly;
+   justify-content:space-around;
+   justify-content:space-between;
+}
+.rotateimage{
+  transform: rotate(90deg);
+}
